@@ -1,1 +1,1 @@
-# Landing-page
+This is my second project i will make it consist to build a landing page from the scartch using the elements and tags including css properties that i learned to get a page structured and well designed !
