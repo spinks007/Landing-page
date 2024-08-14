@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-first-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1000px;
+}
+
+.logo {
+font-family: Roboto;
+font-size: 24px;
+font-weight: bold;
+color: #f9faf8;
+padding-top: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.link-one, .link-two, .link-three {
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.link-1, .link-2, .link-3 {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.link-1:hover, .link-2:hover, .link-3:hover {
+    color: #3882f6;
+}
+
+.middle-header {
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.middle {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-elements {
+    width: 600px;
+}
+
+.main-text {
+    font-family: Roboto;
+    font-size: 30px;
+    color: #f9faf8;
+    font-weight: bolder;
+    padding-bottom: 20px;
+
+}
+
+.color-h1 {
+    color: #3882f6;
+}
+
+.secandary-text {
+    font-family: Roboto;
+    font-size: 18.53px;
+    color: #e5e7eb;
+    padding-bottom: 20px;
+}
+
+
+
+button {
+   cursor: pointer;
+   border: 0;
+   border-radius: 4px;
+   font-size: 16px;
+   font-family: Roboto;
+   font-weight: 600;
+   width: 120px;
+   height: 40px;
+
+
+}
+
+.design-button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+}
+
+.design-button:hover {
+    color: #3882f6;
+    background-color: #e5e7eb;
+    box-shadow: 0 0 20px;
+}
+
+.left-elements {
+    width: 400px;
+    display: flex;
+    
+
+}
+.img-gym {
+    height: auto;
+    width: 360px;
+    object-fit: contain;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 15px;
+    filter: drop-shadow (5px 5px 60px);
+}
+
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    
+}
+
+.info-header {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 100px;
+
+}
+
+.img-info {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.p1, .p2, .p3 {
+    width: 200px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #171a218c
+}
+
+
+.img-protein, .img-gainer, .img-creatine {
+    height: 200px;
+    width: 200px;
+}
+
+.img-protein {
+margin-bottom: -10px;
+}
+
+.quote-container {
+   background-color: #e5e7eb;
+   display: flex;
+   justify-content: center;
+   padding: 120px;
+   
+
+}
+
+.quote-cadre {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+
+.quote {
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: italic;
+    font-weight:lighter;
+    display: flex;
+    justify-content: center;
+    color: #1f2937;
+    text-align: justify;
+
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-between;
+    width: 760px;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.cta-header{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #f9faf8;
+}
+
+.explain {
+    font-family: roboto;
+    font-size: 9.90px;
+    color:#f9faf8;
+}
+
+.sign-up-today {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 60px;
+
+}
+
+.design-button-2 {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+}
+
+.design-button-2:hover {
+    color: #3882f6;
+    background-color: #f9faf8;
+    box-shadow: 0 0 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1f2937;
+    
+}
+
+.footer-p {
+    font-family: roboto;
+    color: #f9faf8;
+    font-size: 14px;
+    padding: 30px;
+}
+
+
